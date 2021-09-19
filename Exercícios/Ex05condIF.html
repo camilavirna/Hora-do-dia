@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de Naturalidade</title>
+</head>
+
+<body>
+    <h1>Me diga sua Nacionalidade para a Verificação:</h1>
+    <input type="text" name="pais" id="text">
+    <input type="button" value="verificar" onclick="calcular">
+    <div id="res">
+
+</body>
+<script>
+    function verificar() {
+        var name = document.querySelector('input#text')
+        var res = document.querySelector('div#res')
+        var nacionalidade = String
+        res.innerHTML = `sua nacionalidade é ${nacionalidade}`
+
+    }
+
+    //nesse ex eu não consegui mostrar resultado no chrome
+</script>
+
+</html>
+
